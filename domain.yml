@@ -3,11 +3,26 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - agree
+  - feeling
+  - situation
+  - thought
+  - doubt
+  - explain
+  - felt_where
+  - behavior
+  - disagree
+  - interpretation
+  - situation_area
+  - thought+situation
+  - feeling+situation
+  - negative_belief
+  - positive_belief
+  - telling_friend 
+  - act_how 
+  - advantages_of_acting 
+  - evidence_for 
+  - evidence_against
 
 responses:
   utter_greet:

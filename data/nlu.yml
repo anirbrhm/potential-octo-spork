@@ -1,27 +1,25 @@
 version: "3.1"
 
 nlu:
+
 - intent: greet
   examples: |
     - hey
     - hello
     - hi
     - hello there
-    - good morning
-    - good evening
-    - moin
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
+    - good morning
+    - good evening
     - good afternoon
+    - what's up 
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
+    - good bye
+    - see you later
     - good night
     - bye
     - goodbye
@@ -29,63 +27,555 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - thank you, bye 
+    - see you then
 
-- intent: affirm
+- intent: agree
   examples: |
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - hmm
+    - Uh-huh
+    - I think so
+    - ok
+    - yeah think so.
+    - definitely
+    - yup
+    - yeah
+    - sure thing	
+    - Absolutely
+    - Right
+    - Acknowledge your advice
+    - I wholeheartedly concur
+    - Okay, I'll be ready.
+    - That’s correct 
+    - More or less, yeah 
+    - Of course 
+    - True 
+    - correct 
+    - that's right 
 
-- intent: deny
+- intent: feeling
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
+    - sad
+    - I'd feel better
+    - Anxious, I think
+    - I don't know. I was just feeling so down, sad.  
+    - I don’t know. I was just really down.
+    - more anxious
+    - sad and hopeless
+    - Yes. I just don't know why I've been so upset all the time.
+    - a little bit better. not that much
+    - that would be a great relief, if the paper were done and I thought i'd done well.
+    - not that good. i think it is the paper that's bothering me the most.
+    - sad, i think
+    - I feel really sad, an emptiness in the pit of my stomach.
+    - I am demotivated
+    - getting angry
+    - not feeling good
+    - hating
+    - I am feeling guilty
+    - I am stressed
+    - I am having performance anxiety
+    - very frustrated
+    - nervous
+    - I feel very empty within
+    - Dizzy
+    - Frustrated
+    - Panic
+    - I feel painful
+    - I don't feel like doing anything
+    - ive been feeling a little burdened lately wasnt sure why that was
+    - I’m always so tired and I never have energy to actually do anything
+    - Felt very unproductive 
+    - Felt lost 
+    - I am happy
+    - I feel great
+    - I'm fine
+    - I had a great day
+    - Me, wonderful!
+    - I am amazed
+    - You are too cool
+    - I am loving it
+    - I am starting to like this
+    - I am feeling great
+    - Doing fine
+    - Never better
+    - Feeling lucky
+    - All great here
+    - Fantastic day
+    - What a great day
+    - I'm inspired
+    - It's perfect
     - amazing
-    - feeling like a king
-    - wonderful
+    - I feel wonderful
     - I am feeling very good
     - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
+    - I'm good
+    - I'm feeling awesome
+    - I'm feeling happy
+    - Today is an awesome day!
+    - I'm so glad
+    - I'm just really happy right now
     - I am sad
     - I don't feel very well
     - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
+    - my day was horrible
+    - This is bad
+    - I am sick
+    - I am ill
+    - I am all low today
+    - Its dissapointing
+    - How irritating it is
+    - Am irritated
+    - I am not feeling well
+    - This sucks!
+    - I am feeling too bad
+    - Worst day ever!
+    - This feels bad
+    - I feel low
+    - Everything is bad today
+    - I feel very sad
+    - Feels horrible
+    - This is depressing
+    - I am depressed
+    - I feel bored
+    - I am feeling bored
+    - life is boring
+    - I am feeling empty
+    - I feel useless
+    - aweful
+    - depressed
+    - heavy
+    - I am feeling quite lost
     - very sad
     - unhappy
-    - not good
+    - bad
+    - very bad
+    - awful
+    - terrible
     - not very good
-    - extremly sad
-    - so saad
+    - extremely sad
     - so sad
+    - Im feeling down
+    - I'm feeling sad
+    - Im feeling sad
+    - Im not okay
+    - Im feeling low
+    - Not good
+    - I'm awful
+    - I'm feeling very sad
+    - I'm uneasy
+    - Actually I'm not fine
+    - I'm not good
+    - I am as lonely as can be
+    - I am going through a rather rough time
+    - I'm grieving
+    - I am angry
+    - I am feeling so angry
+    - I am so annoyed
+    - It's annoying
+    - That's aggravating
+    - I'm furious
+    - That is infuriating
+    - I'm very mad
+    - Everything vexes me
+    - I am outraged
+    - That is outrageous!
+    - I feel hostile
+    - I am very frustrated
+    - It is irritating me
+    - I feel so offended
+    - I am full of fury
+    - I feel very belligerent
+    - I hate doing this
+    - I have no patience today
+    - I could not control my anger
+    - I’m annoyed
+    - I’m super annoyed
+    - I’m so mad.
+    - I'm enraged
+    - I’m straight up angry.
+    - This is maddening!
+    - I'm pissed off
+    - I'm pissed
+    - You bet I'm angry
+    - That made me angry
+    - U made me angry
+    - I'm still angry about that
+    - I am scared
+    - I feel scared
+    - I'm worried
+    - I am terrified
+    - That is frightening
+    - I feel intimidated
+    - That is intimidating
+    - I am petrified
+    - I am afraid
+    - I feel anxious
+    - I'm having a bad feeling
+    - I'm fearful
+    - I panicked
+    - I shrank back in fear
+    - I am scared to death
+    - I broke out in a cold sweat
+    - That startled me!
+    - I'm spooked easily
+    - I'm trembling from fear
+    - I'm horrified
+    - I am nervous
+    - I am stressed out
+    - I feel nervous
+    - I am anxious
+    - I feel anxious
+    - This is nerveracking
+    - This is nervewracking
+    - This is nerve racking
+    - This is nerve wracking
+    - I feel like I am going to throw up
+    - I have a lump in my throat
+    - I have butterflies in my stomach
+    - I am a bundle of nerves
+    - I am breaking out in a cold sweat
+    - I am afraid of my own shadow
+    - I am like a cat on hot bricks
+    - I am jumping out of my skin
+    - I am at my wits' end
+    - I am tongue tied
+    - I am on edge
+    - I am very tense
+    - I feel uneasy
+    - I am alarmed
+    - I am troubled
+    - I'm tensed
+    - I'm stressed
+    - I'm under a lot of stress
+    - I'm constantly worried
+    - I feel constant tension
+    - I’m anxious.
+    - I’m suffering from anxiety.
+    - I’ve been feeling rather anxious lately.
+    - My anxiety is rather through the roof these days.
+    - I’m feeling rather restless
+    - I cannot concentrate as I'm worried constantly
+    - I'm under immense stress
+    - It's been a rough couple of days. VERY stressful
+    - I'm quite tensed.
+    - There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.
+    - I find myself worrying about every little detail
+    - I am a chronic worrier.
+    - I’m feeling rather restless and a horde of worries is bothering me
+    - I cannot concentrate due to the whole number of worries that are bothering me
+    - soo bored
+    - that was boring
+    - I'm bored
+    - bored
+    - boring
+    - I am getting bored
+    - Staying at home is boring
+    - very boring
+    - it bores me
+    - i had a slow day
+    - i am very bored
+    - Im kinda bored today
+    - I've never been more bored
+    - I was bored
+    - It's boring
+    - This is boring
+    - We're all bored
+    - It's very boring
+    - I'm already bored
+    - I'm bored out of my mind
+    - I am excited
+    - I'm really excited
+    - I can't begin to say how excited I am
+    - I'm thrilled
+    - I'm damn excited
+    - I'm hyped
+    - I'm very excited
+    - I felt excited
+    - It was exciting
+    - That was exciting
+    - How exciting!
+    - This is so fun
+    - I am lonely
+    - I'm very lonely
+    - I'm so lonely
+    - I'm really lonely
+    - I am feeling lonely
+    - I feel lonely
+    - I am a loner
+    - I don't have any company
+    - I don't have anyone else
+    - I'm always alone
+    - I'm alone
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - I have no one to talk to
+    - I am still alone
+    - I am used to living alone
+    - I'm drained
+    - I've overworked
+    - I am tired
+    - I'm exhausted
+    - I grow weary
+    - I'm worn out
+    - I'm getting tired
+    - I feel tired
+    - I'm so tired
+    - I'm completely drained out
+    - I'm very tired
+    - i was tired
+    - i feel tired
+    - i'm dead tired
+    - I'm a bit tires
+    - I was very tired
+    - I am really tired
+    - i am awfully tired
+    - i am kind of so tired
+    - I am little tired
 
-- intent: bot_challenge
+- intent: situation
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - I was looking at the people in the park, hanging out, playing Frisbee, things like that
+    - it was about 6:15. i had just gotten back from dinner. the dorm was pretty empty because i ate early. i was about to get my books out of my backpack so i could do my chemistry homework. 
+    - I’m in my Economics class. The professor is standing in front of the class. Let’s see, I was sitting about three-quarters of the way back, I was listening pretty hard ...
+    - She’s saying something about what topics we can choose, a macroeconomic view of the economy or ... something, and then this guy on my left leans over and whispers, “When’s the paper due?”
+    - I think I was thinking about my Economics class, getting my paper back.
+    - i have a paper due next week
+    - Well, she’s been taking my food and not replacing it. Not in a malicious way, but it still bothers me. And she’s got a boyfriend, and whenever she talks about him, it reminds me that I don’t have one. And she’s messy; she leaves stuff all around ... And she’s kind of inconsiderate. Sometimes she talks really loudly on her cell phone.
+    - I had fever
+    - I was preparing for my exam.
+    - Just before going for the interview.
+    - I was sitting in my room.
+    - kids don't study
+    - I stopped working out
+    - My friend sent a bland good morning message
+    - I do not play with Rubiks cube.
+    - When my YT videos dont get views
+    - Doing Nothing creative
+    - I was playing table-tennis
+    - I am feeling sick
+    - I have my endsem tomorrow
+    - I was watching a movie
+    - My friend bought a new car
+    - My parents are out of town
+    - No productive work
+    - Spending a lot of time on phone/mobile
+    - I was meant to be revising for an exam this weekend, but I've procrastinated all day.
+  
+- intent: thought
+  examples: |
+    - I'll never be like them
+    - If I say something, it won't come out right. People will judge.
+    - this is just too hard. i'll never understand it. 
+    - What did she say? What did I miss? Now I won’t know what to do.
+    - Yeah. I was thinking that she was too busy for me, that she didn’t really want to help me, and I wouldn’t know what to do.
+    - Yeah. I pictured a “C” at the top, in red ink.
+    - No, not at all! I was thinking that I don’t know whether I belong here.
+    - That I’m not smart enough. I don’t have what it takes.
+    - I should have done better. i should have studied harder
+    - everyone else probably did better than I did. 
+    - I might embrass myself
+    - My heart started beating real fast and I thought, “What’s wrong with me?”
+    - i thought, "I'll never feel okay."
+    - What if I have covid?
+    - What if I fall sick and don't get the treatment?
+    - When I was studying
+    - I have tried to understand the concepts so many times, but nothing seems to work. I am a failure.
+    - I always underestimate my caliber in front of an audience and get nervous
+    - I hate some people
+    - I have anger issues
+    - I am no more considered a close friend
+    - That I can't do anything on time.
+    - What if I don’t get shortlisted? 
+    - What if I got hurt?
+    - What if I am not able to complete this before the deadline?
+    - What if he gets angry?
+    - What if I get fired?
+    - I don’t like to end up like them
+    - I thought he will never forgive me
+    - I thought, “I’ll never trust him.”
+    - I might not be able to win this time
+    - I shouldn’t have done this
+    - this is too easy for me
+    - this too shall will pass
+    - I'm beginning to think I will never go into this field as I've left it too late
+    - I just wish I could rewind my life and do it all again
+    - I'm just a loser
+    - I couldn't get motivated
+    - What the heck is wrong with me?
+
+- intent: doubt
+  examples: |
+    - Sometimes I have thoughts that are wrong and these thoughts make me feel bad... But what if thoughts are right?
+    - I am not sure
+    - oh, i don't know. i'm worried about all of them. 
+    - Oh, I don’t know. Everything.
+    - something
+    - issues
+    - worry
+    - worries
+    - events
+    - thought paralysis
+    - some negative thought i had
+    - negative belief
+    - some negative thought
+    - i have self-doubt
+    - I don't have much to show for it
+    - Confused 
+
+- intent: explain
+  examples: |
+   - Well, sometimes automatic thoughts just pop into my head and I accept them as true. And then I feel ... whatever: sad, worried ...
+   - Because sometimes my thoughts aren’t true, and if I can figure out what I’m thinking, I can change it around and feel better.
+   - well, you had me list all the things i was worried about, and pretend to solve them one by one.
+
+- intent: felt_where
+  examples: |
+   - Here. In the pit of my stomach.
+   - Inside my head
+   - Chest pain/heavy
+   - Difficulty breathing
+   - heart palpitations
+
+- intent: behavior
+  examples: |
+   - i just lay down on my bed
+   - I felt so bad I thought I wouldn’t be much fun at lunch with Allison so I told her I wasn’t feeling well and just went back to my room.
+   - No. I just walked over to the table and started talking to my friend.
+
+- intent: disagree 
+  examples: |
+   - Those are the major things.
+   - no
+   - no not at all
+   - nothing
+   - no everything is fine
+   - I don’t think so
+   - Definitely not
+   - I strongly disagree
+   - nope
+   - not possible
+   - no it's not right
+   - seems wrong
+   - wrong
+
+- intent: interpretation
+  examples: |
+   - I think I was denying my real feelings.
+   - I had difficult thoughts
+
+- intent: situation_area
+  examples: |
+   - Housing
+   - trading
+   - finance
+   - test
+   - children
+   - loan
+   - fight
+   - sleep
+   - tiff
+   - job
+   - covid
+   - meditation practice
+   - work
+   - family
+   - relationship
+   - future
+   - no job
+   - exams
+   - interview
+   - laugh
+   - run
+   - past
+   - friends
+   - no sleep
+   - yoga practice
+   - intern
+
+- intent: thought+situation
+  examples: |
+   - Facing difficulty in finding new job
+   - I appeared in one exam in which I got very good marks but eventually paper got cancel. I feel like success is not for me
+   - I used to visit temple daily. I used to be happy and more living body rather than dead. I used to call my relative friend and enjoy with friends. I used to do small business with my father but all this I stopped doing. Not vale to maintain continuty toward work
+   - Well this might seem silly but we were supposed to be working on a project and everyone was just doing random stuff and it was not looking as good as I expected
+   - Could not perform well in my competitive exam
+   - well, school for one. and i'm not getting along well with my roommate. and then i tried to get hold of my mother again and I couldn't reach her, and, I don't know, just everything. 
+   - I hate going to the park
+   - I am so conflicted to watch any movie. I keep thinking it's about me.
+   - why i am not getting reply to my applications
+   - I wait for something good in life to start playing.
+
+
+- intent: feeling+situation
+  examples: |
+   - I felt sad when my friend succumbed to covid
+   - Feeling overwhelmed by work
+   - I am frustrated when I can't exercise
+   - I don't like reading books
+   - I hate it when I can’t solve a math problem
+   - I like eating pizzas
+   - I get angry when someone scolds me for no reason
+   - I felt angry when they bullied the shy kind in the class
+   - I felt sorry for the guy getting bullied
+   - I cried when my dog got lost
+
+- intent: negative_belief
+  examples: |
+   - I am a loser
+   - I am unlovable
+   - I am worthless
+   - I must always try to be perfect
+   - Other people are to blame for my problems
+   - The world should always meet my expectations
+   - I am basically defective and inferior to other people
+   - I must always please people and live up to everyone's expectations
+   - If someone criticizes me, it means there's something wrong with me
+   - If I worry or feel bad about a situation, it will somehow make things better
+   - I must have the love and approval of others before I can feel good about myself
+   - I'm hopeless and bound to feel depressed forever because the problems in my life are impossible to solve
+
+- intent: positive_belief
+  examples: |
+   - I am just shy not dumb
+   - I will try this even though I can fail
+   - I am not going to lose this time
+   - I am just sad not depressed
+
+- intent: telling_friend
+  examples: |
+   - You might feel like this because you stay alone, but you do have people who care about you and are just a call away
+   - You are not alone in this, it will be fine
+   - Try to see the good things about yourself, focus more on the positive.
+
+- intent: act_how
+  examples: |
+   - I would be a happier person with confidence
+   - I would be a more outgoing person and meet new people without hesitation
+   - Play around with friends without the fear of any judgement
+
+- intent: advantages_of_acting
+  examples: |
+   - I'll feel better about myself
+   - I'll have less anxiety and can be more productive
+   - Can become better at interacting with people
+
+- intent: evidence_for
+  examples: |
+   - I got lower grades in that exam
+   - I was slow at completing my task
+   - I didn’t do well last time
+   - I have passed this course previously
+   - I got a good rank in that exam
+   - I have been selected in that program
+   - I was not able to complete my task before deadline the last time
+
+- intent: evidence_against
+  examples: |
+   - Teacher was not good at explaining the subject
+   - Everyone took more time at doing that task 
+
