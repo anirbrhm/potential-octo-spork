@@ -594,6 +594,8 @@ nlu:
    - I did not mean that 
    - Wrong 
    - Does not make sense 
+   - Not true 
+   - Not correct
 
 - intent: interpretation
   examples: |
@@ -776,6 +778,7 @@ nlu:
    - It's actually not so hard 
    - I have full faith in myself 
    - The people around me care for me a lot 
+   - I will become the best in the world
 
 - intent: telling_friend
   examples: |
