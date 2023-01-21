@@ -126,4 +126,4 @@ def correctSentence(sentence) :
 
     return corrected_sentence
 
-print(correctSentence("Hellu what is up , would you tell me"))
+print(correctSentence("Hellu what is up , would you rell me"))

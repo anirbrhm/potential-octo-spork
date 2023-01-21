@@ -1,0 +1,212 @@
+version: "3.1"
+nlu:
+- intent: interpretation
+  examples: |
+    - I have learnt to observe my thoughts better
+- intent: advantages_of_acting
+  examples: |
+    - I'll feel better about myself
+- intent: explain
+  examples: |
+    - Because sometimes my thoughts aren’t true, and if I can figure out what I’m thinking, I can change it around and feel better.
+    - Well, you had me list all the things I was worried about, and pretend to solve them one by one.
+- intent: behavior
+  examples: |
+    - I just pretended that I did not see him
+- intent: goodbye
+  examples: |
+    - see you later
+    - good night
+- intent: greet
+  examples: |
+    - good afternoon
+    - hey there
+    - good morning
+- intent: evidence_for
+  examples: |
+    - I could not understand the concept despite repeated attempts
+    - I got lower grades in that exam
+    - I have no plans for my future
+- intent: evidence_against
+  examples: |
+    - Applying to colleges has a lot of luck factor in it
+    - Everyone took more time at doing that task
+    - The professor has praised me before for my knowledge
+    - I am very comfortable to tell people how I feel
+- intent: act_how
+  examples: |
+    - I would take more risks in life in general
+    - I would do a lot better at work
+    - I would be living in the moment
+    - I would be able to enjoy with my friends better without overthinking
+- intent: felt_where
+  examples: |
+    - My arms hurt
+    - Fingers were frozen
+    - Head was hurting
+    - Body felt dehydrated
+- intent: thought+situation
+  examples: |
+    - I feel tense thinking how I would perform at work
+    - Facing difficulty in finding new job
+    - I am feeling uncomfortable adjusting to this new lifestyle
+    - Could not perform well in my competitive exam
+- intent: positive_belief
+  examples: |
+    - I have done it in the past, I can do it again
+    - I have the ability to do it
+    - It's actually not so hard
+    - I am just shy not dumb
+    - This just seems like the perfect path
+- intent: disagree
+  examples: |
+    - I did not mean that
+    - I don’t think so
+    - no everything is fine
+    - I strongly disagree
+    - Incorrect
+- intent: telling_friend
+  examples: |
+    - Try to see the good things about yourself, focus more on the positive
+    - Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It is a temporary detour, not a dead end. Failure is something we can avoid only by saying nothing, doing nothing, and being nothing
+    - Failure is a part of the process. You just learn to pick yourself back up
+    - When you take risks you learn that there will be times when you succeed and there will be times when you fail, and both are equally important
+    - If you keep working hard the way you are doing, it will definitely take your career to the places you want it to go
+    - Success is not final, failure is not fatal: it is the courage to continue that counts
+- intent: feeling+situation
+  examples: |
+    - I get angry when someone scolds me for no reason
+    - I was disappointed when my professor rejected my request
+    - I am nervous about the first impression I will make at my new job
+    - I felt humiliated when the professor scolded me in front of the whole class
+    - I felt bad when friends could not take some time out to call me
+    - I cried when my dog got lost
+    - I was very sad when my grandfather passed away
+- intent: agree
+  examples: |
+    - yes
+    - Uh-huh
+    - definitely
+    - Well, that's right
+    - True
+    - Makes sense
+    - Copy that
+    - Probably correct
+- intent: situation_area
+  examples: |
+    - Expectations of others
+    - no job
+    - Sports
+    - sleep
+    - future
+    - yoga practice
+    - Student loans
+    - Future Life
+- intent: doubt
+  examples: |
+    - something
+    - I don't have much to show for it
+    - I can’t really decide for myself
+    - I have nothing to look forward to, how will I survive this phase ?
+    - Really difficult for me to decide
+    - Confused
+    - I am not sure what I will do in the future
+    - I am worried about the future
+    - some negative thought
+- intent: negative_belief
+  examples: |
+    - I am a loser
+    - I am such a mediocre boy
+    - I must always please people and live up to everyone's expectations
+    - Only I am responsible for all my problems
+    - I am good for nothing
+    - I have no friends
+    - I'm hopeless and bound to feel depressed forever because the problems in my life are impossible to solve
+    - I will always be unloved
+    - Other people are to blame for my problems
+- intent: situation
+  examples: |
+    - My parents are out of town
+    - Condescending remarks from my teachers
+    - I was watching a movie
+    - I was meeting with my project mentor after a long time
+    - All my friends are doing well in their colleges
+    - When my partner really made me feel undervalued
+    - When I looked at the hospital bill for the treatment
+    - I looked at the hotel bill
+    - Teachers scolded me for no reason
+    - The coach criticized my performance in front of all my teammates
+    - Nobody found time to attend the party I was throwing
+    - I was catching up with my school teacher who had expected a lot from me in life
+    - After I came back from that party
+    - I made so many silly mistakes in my exam
+    - I do not play with Rubik's cube.
+    - I had to go to class to get back my marks of the mid sem exam
+- intent: thought
+  examples: |
+    - I might not be able to maintain a good CPI in college
+    - I have anger issues
+    - She probably talks behind my back to a lot of people
+    - I just wish I could rewind my life and do it all again
+    - Everyone will probably make me laughing stock after this
+    - I’ll probably never recover from this loss
+    - Am I suffering from insomnia ?
+    - I thought, “I’ll never trust him.”
+    - Am I doing enough for my career ?
+    - I have tried to understand the concepts so many times, but nothing seems to work. I am a failure.
+    - I am always so irritated by everyone around me
+    - I shouldn’t have done this
+    - everyone else probably did better than I did.
+    - I might not complete my degree on time and will always lag behind
+    - What if the professor thinks that I am an irresponsible student now ?
+    - My heart started beating real fast and I thought, “What’s wrong with me?”
+    - I always underestimate my caliber in front of an audience and get nervous
+- intent: feeling
+  examples: |
+    - I am sick
+    - I am a bundle of nerves
+    - I'm awful
+    - I have no patience today
+    - depressed
+    - I feel very sad
+    - That is intimidating
+    - I feel bored
+    - I’m always so tired and I never have energy actually to do anything
+    - I'm feeling low
+    - That is outrageous!
+    - I could not control my anger
+    - very bad
+    - I have no one to talk to
+    - Frustrated
+    - I'm bored
+    - I’ve been feeling rather anxious lately.
+    - I am on edge
+    - That is frightening
+    - I'm not good
+    - I've gotten used to living alone
+    - This is nerve wracking
+    - I'm drained
+    - I am at my wits' end
+    - I am petrified
+    - It is irritating me
+    - I am afraid
+    - I'm furious
+    - This is maddening!
+    - I feel very belligerent
+    - I'm kinda bored today
+    - I'm exhausted
+    - I'm really lonely
+    - I live alone
+    - I'm getting tired
+    - I am all low today
+    - Im feeling sad
+    - sad
+    - I feel tired
+    - my day was horrible
+    - I don't feel like doing anything
+    - a little bit better. not that much
+    - I feel lonely
+    - I’m anxious.
+    - bored
+    - that was boring
+    - I am getting bored

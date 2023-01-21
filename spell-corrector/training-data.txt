@@ -68,6 +68,7 @@
     - Wonderful 
     - I concur 
     - Copy that 
+    - Well, that's right
 
 
 - intent: feeling
@@ -534,6 +535,9 @@
    - Well, sometimes automatic thoughts just pop into my head and I accept them as true. And then I feel ... whatever: sad, worried ...
    - Because sometimes my thoughts aren’t true, and if I can figure out what I’m thinking, I can change it around and feel better.
    - Well, you had me list all the things I was worried about, and pretend to solve them one by one.
+   - I sometimes make up situations that are bad for me and simply not true 
+   - I have dreams about my past relationships and that just makes me feel worse 
+   - I have this constant feeling that I would be discouraged if I decide to change my life for the better, this sort of constant fear of failure is there
 
 - intent: felt_where
   examples: |
@@ -549,6 +553,14 @@
    - My arms hurt 
    - Head was hurting 
    - Legs were crying in pain 
+   - Stomach was hurting 
+   - Pain in the stomach 
+   - Fingers were frozen 
+   - Face was on fire
+   - Body was sweating very heavily 
+   - Body was itching 
+   - Pulled muscles 
+   - Body felt dehydrated
 
 
 - intent: behavior
@@ -601,6 +613,8 @@
    - I was not fully open to understanding the cause of my sadness 
    - I have learnt to observe my thoughts better 
 
+# beating around the bush and not coming to the point about my feeling and talking about other related stuff 
+
 - intent: situation_area
   examples: |
    - Housing
@@ -611,7 +625,6 @@
    - loan
    - fight
    - sleep
-   - tiff
    - job
    - covid
    - meditation practice
@@ -658,6 +671,16 @@
    - I am so conflicted about watching any movie. I keep thinking it's about me.
    - why i am not getting reply to my applications
    - I wait for something good in life to start playing.
+   - I am feeling uncomfortable adjusting to this new lifestyle 
+   - I feel tense thinking how I would perform at work 
+   - I am always anxious regarding the surprise quizzes in my courses 
+   - I worry about my exams all the time 
+   - I worry how my friends think about me 
+   - I feel very clumsy about myself 
+   - I have been put under a lot of expectations regarding my career 
+   - I feel anxious about the stock market 
+   - I feel angry when my teammates don’t contribute enough to the project 
+   - I feel sad when my work is not recognized enough 
 
 - intent: feeling+situation
   examples: |
@@ -806,33 +829,80 @@
    - It is impossible to live without failing at something unless you live so cautiously that you might as well not have lived at all, in which case you have failed by default
    - Failure is a part of the process. You just learn to pick yourself back up
    - We need to accept that we won't always make the right decisions, that we'll screw up royally sometimes – understanding that failure is not the opposite of success, it's part of success
-   - Making mistakes simply means you are learning faster
+   - Learning from more mistakes simply means you are learning faster
 
 - intent: act_how
   examples: |
    - I would be a happier person with confidence
    - I would be a more outgoing person and meet new people without hesitation
    - Play around with friends without the fear of any judgment
+   - I would be able to enjoy with my friends better without overthinking 
+   - I would become a more confident person 
+   - I would be able to take more risks in life 
+   - I would be able to take the time to understand the things better 
+   - I would spend more time working rather than overthinking 
+   - I would take risks to meet new people 
+   - I would take more risks in life in general 
+   - I would be working towards bettering my relationships 
+   - I would be living in the moment 
+   - I would not fret about my past self so much 
+   - I would have a more positive attitude towards life 
+   - I would not worry about what other people think about me 
+   - I would have better relationships 
+   - I would do a lot better at work 
+   - I would be a more focused person 
+   - I would be able to appreciate myself better
 
 - intent: advantages_of_acting
   examples: |
    - I'll feel better about myself
    - I'll have less anxiety and can be more productive
    - Can become better at interacting with people
+   - I feel I have more clarity about my thoughts now 
+   - I can now point in the direction I need to work upon myself 
 
 - intent: evidence_for
   examples: |
    - I got lower grades in that exam
    - I was slow at completing my task
    - I didn’t do well last time
-   - I have passed this course previously
-   - I got a good rank in that exam
-   - I have been selected in that program
+   - I have not passed this course previously
+   - I got a bad rank in that exam
+   - I have not been selected in that program
    - I was not able to complete my task before deadline the last time
+   - I could not understand what was taught in the class 
+   - Many people forgot my birthday 
+   - I could not understand the concept despite repeated attempts 
+   - My professor scolded me for the doubt 
+   - My friends forgot about me while planning their trip 
+   - No one messages me if I don’t message first
+   - I have been rejected before 
+   - I have never been able to maintain my past relationships 
+   - I have been jobless for an year now 
+   - I have almost no money in my bank account 
+   - I have no plans for my future 
 
 - intent: evidence_against
   examples: |
    - Teacher was not good at explaining the subject
    - Everyone took more time at doing that task 
+   - A lot of people took the effort to wish me luck in my previous exam 
+   - The average marks of the class itself was very low 
+   - The professor is rude to everyone 
+   - Even I forget the birthdays of people I care about 
+   - The deadline was too strict and many people missed the deadline 
+   - The competition was too competitive 
+   - The concept required prerequisite knowledge which was not taught to us 
+   - Applying to colleges has a lot of luck factor in it
+   - I understand these concepts very well 
+   - I have done very well in this test in the past 
+   - I performed bad because my health was very bad that day 
+   - I was just having a bad day 
+   - The professor has praised me before for my knowledge 
+   - I am very comfortable at understanding other people’s emotions 
+   - I am very comfortable to tell people how I feel 
+   - A lot of important people believe that I will do well 
+  
+
 
 
